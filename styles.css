@@ -1,0 +1,99 @@
+* {
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: lightblue;
+}
+
+/*index*/
+
+
+
+.heading {
+    text-align: center;
+    padding: 20px;
+    font-size: 48px;
+}
+
+
+.row {
+    display: flex;
+    padding: 100px;
+       
+}
+
+.column {
+    flex: 33.33%;
+    padding: 25px ;
+    text-align: center;
+    
+  }
+
+.column a {
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 24px;
+    text-decoration: none;
+   
+}
+
+.column img {
+    margin-top: 25px;
+    border-radius: 20px;
+    width: 70%;
+}
+
+
+
+/*Recipe*/
+
+.link-table {
+    padding: 25px;
+    
+}
+
+.link-table, .link-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.link-list a{
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+  border-radius: 20px;
+}
+
+h2, p{
+    text-align: center;
+    line-height: 3;
+}
+
+.footer{
+    text-align: center;
+}
+
+
+
+
+a:visited { text-decoration: none; color:blue; }
+a:hover { text-decoration: none; color:blue; }
+a:focus { text-decoration: none; color:yellow; }
+a:hover, a:active { text-decoration: none; color:black }
+
+
