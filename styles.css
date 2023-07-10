@@ -8,6 +8,10 @@
 
 /*index*/
 
+.container a{
+    text-decoration: none;
+    
+}
 
 
 .heading {
@@ -113,7 +117,7 @@ h2, p{
 }
 
 
-a:visited { text-decoration: none; color:blue; }
+a:visited { text-decoration: none; color:black; }
 a:hover { text-decoration: none; color:blue; }
 a:focus { text-decoration: none; color:yellow; }
 a:hover, a:active { text-decoration: none; color:black }
